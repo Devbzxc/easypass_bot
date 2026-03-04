@@ -1,13 +1,13 @@
-import sys
-import os
+from tg_bot_exfa.config import load_config, BotConfig
+from tg_bot_exfa.storage.db import Database
 
-# Добавляем путь к текущей папке, чтобы видеть config.py
-sys.path.insert(0, os.path.dirname(__file__))
 
-# Правильный импорт (из той же папки)
-from config import load_config, BotConfig
+class AppContext:
+    def __init__(self, config: BotConfig, db: Database):
+        self.config = config
+        self.db = db
+        self.monitor_task = None
+        self.plugin_manager = None
 
-# Здесь должен быть остальной код файла
-# Например:
-# config = load_config()
-# и так далее...
+
+app_context: AppContext | None = None
