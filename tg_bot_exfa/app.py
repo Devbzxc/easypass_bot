@@ -4,10 +4,10 @@ import os
 # Добавляем путь к текущей папке, чтобы видеть config.py
 sys.path.insert(0, os.path.dirname(__file__))
 
-# Импортируем config из той же папки (без tg_bot_exfa.)
+# Правильный импорт (из той же папки)
 from config import load_config, BotConfig
 
-# Здесь остальной код файла (который был ниже)
+# Здесь должен быть остальной код файла
 # Например:
 # config = load_config()
 # и так далее...
