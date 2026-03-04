@@ -1,0 +1,12 @@
+{
+    "BOT_TOKEN": "8701913182:AAER34O7GdmhkQyBhhxK0tG2os69guEUupk",
+    "BOT_PASSWORD_MD5": "de65cbe1a97726d74d7f689f2f7a19a5",
+    "DEFAULT_LANGUAGE": "ru",
+    "DEBUG": true,
+    "WATERMARK_ON": false,
+    "WATERMARK_TEXT": "EasyPass",
+    "WELCOME_ENABLED": true,
+    "WELCOME_TEXT": "Привет! 👋\nЯ — автоматический помощник продавца в магазине EasyPass\n\n🔥У нас большой выбор товаров для игр и сервисов. После оплаты товар вступит в очередь — просто следуй инструкциям в заказе.\n\n⏰Можешь смело оплачивать, не дожидаясь ответа продавца \n\nЕсли возникнут вопросы — пиши, я на связи!\nУдачных покупок! 🔥",
+    "WELCOME_COOLDOWN_MINUTES": 60,
+    "SESSION_COOKIE": "c9562fc7-efc1-4fd9-8b35-8bc326183784"
+}
